@@ -47,6 +47,11 @@ sdv
 ---
 
 ## Usages
+### Generate synthetic data
+First, use [CTGAN] to generate synthetic data as target train data. 
+
+
+
 ### Training
 We offer several training/testing options as below:
 For batchsize (--batchsize, default 256)
