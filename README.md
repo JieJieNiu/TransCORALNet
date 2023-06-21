@@ -69,7 +69,9 @@ For AA-DeepCORAL prediction:
 python AA-DeepCoral/prediction and evaluation.py
 ```
 
-
+### Explanation
+You can use [Lime](https://github.com/JieJieNiu/AA-Deep-coral/blob/main/Lime) to interpret the results of a model prediction. 
+Also, the attention score calculation and visualization can be seen here: [Attention score](https://github.com/JieJieNiu/AA-Deep-coral/blob/main/AA-DeepCoral/Attention score results)
 
 
 ### Plot
