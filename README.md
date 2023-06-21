@@ -48,13 +48,37 @@ sdv
 
 ## Usages
 ### Training
-An example [training script](train_SmaAtUNet.py) is given for a classification task .
+We offer several training/testing options as below:
+For batchsize (--batchsize, default 256)
+For training/testing epoch (--epoch, default 250)
+TPU allocation 
 
-For training on the precipitation task we used the [train_precip_lightning.py](train_precip_lightning.py) file.
-The training will place a checkpoint file for every model in the `default_save_path` `lightning/precip_regression`. After finishing training place the best models (probably the ones with the lowest validation loss) that you want to compare in another folder in `checkpoints/comparison`.
-The [test_precip_lightning.py](test_precip_lightning.py) will use all models in that folder and calculate the test-losses for the models.
-To calculate the other metrics such as Precision, Recall, Accuracy, F1, CSI, FAR, HSS use the script [calc_metrics_test_set.py](calc_metrics_test_set.py).
 
+example
+For AA-DeepCORAL training:
+```
+python AA-DeepCORAL\train and test.py --batchsize 256 --epoch 250 --tpu
+```
+For AA-DeepCORAL prediction:
+```
+python AA-DeepCoral/prediction and evaluation.py
+```
+
+
+
+
+### Plot
+
+Creating similar plots as in the paper: 
+Using [rawgraphs](https://www.rawgraphs.io/) to create the following graph:
+
+![Attention score](viz.jpg)
+
+Using [chiplot](https://www.chiplot.online/) to create the following graph:
+
+![Attention score for positive](pos.jpg)
+![Attention score for negative](neg.jpg)
+![Attention score difference](diff.jpg)
 
 ### Dataset
 The dataset are not open access due to the current data protocal. If you are interested in the dataset that we used in this paper please write an e-mail to: j.shi1@uu.nl and s.mehrkanoon@uu.nl
@@ -67,6 +91,3 @@ If you want to run this model on your own datasets, you can either
 ```
 bibtex
 ```
-
-
-
