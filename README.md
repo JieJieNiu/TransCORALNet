@@ -48,7 +48,7 @@ sdv
 
 ## Usages
 ### Generate synthetic data
-First, use [CTGAN] to generate synthetic data as target train data. 
+First, use [CTGAN](https://github.com/JieJieNiu/AA-Deep-coral/blob/main/Dataset/CTGAN) to generate synthetic data as target train data. Then use [dataloader](https://github.com/JieJieNiu/AA-Deep-coral/blob/main/Dataset/Dataloader) to prepare the training and testing dataset.
 
 
 
