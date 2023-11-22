@@ -86,11 +86,11 @@ Using [chiplot](https://www.chiplot.online/) to create the following graph:
 ![Attention score difference](diff.jpg)
 
 ### Dataset
-The dataset are not open access due to the current data protocal. If you are interested in the dataset that we used in this paper please write an e-mail to: j.shi1@uu.nl and s.mehrkanoon@uu.nl
+The dataset are not open access due to the current data protocal. If you are interested in the dataset that we used in this paper please write an e-mail to: s.mehrkanoon@uu.nl and j.shi1@uu.nl 
 
 If you want to run this model on your own datasets, you can either
 
-(1) reorganize your datasets: Step 1.normalized using a [Min-Max normalization](https://en.wikipedia.org/wiki/Feature_scaling#Rescaling_(min-max_normalization)). Step 2. run this code with your data to fit your project https://github.com/JieJieNiu/AA-Deep-coral/Dataset
+(1) reorganize your datasets: Step 1.normalized using a [Min-Max normalization](https://en.wikipedia.org/wiki/Feature_scaling#Rescaling_(min-max_normalization)). Step 2. run this code with your data to fit your project.
 
 ---
 
