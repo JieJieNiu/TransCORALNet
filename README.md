@@ -1,4 +1,4 @@
-# AA-DeepCORAL
+# TransCORALNet
 ## Architecture
 Code for the Paper "TransCORALNet: A Two-Stream Transformer CORAL Networks for Supply Chain Credit Assessment Cold Start" 
 
@@ -43,13 +43,11 @@ torchvision==0.9.1
 lime
 sdv
 ```
-
 ---
 
 ## Usages
 ### Generate synthetic data
-First, use [CTGAN](https://github.com/JieJieNiu/AA-Deep-coral/blob/main/Dataset/CTGAN) to generate synthetic data as target train data. Then use [dataloader](https://github.com/JieJieNiu/AA-Deep-coral/blob/main/Dataset/Dataloader) to prepare the training and testing dataset.
-
+First, use [CTGAN](https://github.com/JieJieNiu/TransCORALNet/tree/main/%20Synthetic%20target%20training%20and%20DataLoader) to generate synthetic data as target train data. Then use [dataloader] to prepare the training and testing dataset.
 
 
 ### Training
@@ -60,17 +58,17 @@ TPU allocation
 
 
 example
-For AA-DeepCORAL training:
+For TransCORALNet training:
 ```
-python AA-DeepCORAL\train and test.py --batchsize 256 --epoch 250 --tpu
+python TransCORALNet\train and test.py --batchsize 256 --epoch 250 --tpu
 ```
-For AA-DeepCORAL prediction:
+ForTransCORALNet prediction:
 ```
-python AA-DeepCoral/prediction and evaluation.py
+python TransCORALNet/prediction.py
 ```
 
 ### Explanation
-You can use [Lime](https://github.com/JieJieNiu/AA-Deep-coral/blob/main/Lime) to interpret the results of a model prediction. 
+You can use [Lime](https://github.com/JieJieNiu/TransCORALNet/blob/main/Lime) to interpret the results of a model prediction. 
 Also, the attention score calculation and visualization can be seen here: [Attention score](https://github.com/JieJieNiu/AA-Deep-coral/blob/main/AA-DeepCoral/Attention score results)
 
 
