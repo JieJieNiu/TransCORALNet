@@ -16,9 +16,9 @@ from numpy import where
 ####CTGAN
 data_newuser=pd.read_csv('data_newuser_80.csv')
 
-#定义生成数据的行数
+#the row number of generated data
 new_data_rows=65792
-#生成新数据
+#generate new data
 ctgan = CTGAN()
 ctgan.fit(data_newuser.iloc[:,1:-1])
 fake_data= ctgan.sample(num_rows=new_data_rows)
