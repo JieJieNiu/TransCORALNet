@@ -1,21 +1,21 @@
 # AA-DeepCORAL
 ## Architecture
-Code for the Paper "AA-DeepCORAL: Attention Augmented Deep CORAL for Supply Chain Credit Assessment Cold Start" 
+Code for the Paper "TransCORALNet: A Two-Stream Transformer CORAL Networks for Supply Chain Credit Assessment Cold Start" 
 
-![AA-DeepCORAL](artchi.jpg)
+![TransCORALNet](artchi.png)
 
-The proposed AA-DeepCORAL can be found in the model-folder under: 
+The proposed TransCORALNet can be found in the model-folder under: 
 
 **>>>IMPORTANT<<<**
 
-The original Code from the paper can be found in this branch: https://github.com/JieJieNiu/AA-Deep-coral/tree/main/AA-DeepCoral
+The original Code from the paper can be found in this branch: https://github.com/JieJieNiu/TransCORALNet
 
-Also we provide the code of baseline models MMD and Deep CORAL:https://github.com/JieJieNiu/AA-Deep-coral/tree/main/Descripency
-CADA and DANN: https://github.com/JieJieNiu/AA-Deep-coral/tree/main/Adversarial
+Also we provide the code of baseline models MMD and Deep CORAL:https://github.com/JieJieNiu/TransCORALNet/tree/main/MMD and CORAL
+CADA and DANN: https://github.com/JieJieNiu/TransCORALNet/tree/main/CADA%20and%20DANN
 
 
-The trained model canbe download in this branch, you can load model-best.pt and use it directly, also the baseline models of CADA, DANN, MMD and DeepCORAL can be download here: 
-https://github.com/JieJieNiu/AA-Deep-coral
+The trained model canbe download in this branch, you can load model-TransCORALNet.pt and use it directly, also the baseline models of CADA, DANN, MMD and DeepCORAL can be download here: 
+https://github.com/JieJieNiu/TransCORALNet/tree/main/Trained%20models
 
 The current master branch has since upgraded packages and was refactored. Since the exact package-versions differ the experiments may not be 100% reproducible.
 
