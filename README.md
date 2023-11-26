@@ -80,9 +80,9 @@ Using [rawgraphs](https://www.rawgraphs.io/) to create the following graph:
 
 Using [chiplot](https://www.chiplot.online/) to create the following graph:
 
-![Attention score for positive](pos.jpg)
-![Attention score for negative](neg.jpg)
-![Attention score difference](diff.jpg)
+![Attention score for positive](pos.png)
+![Attention score for negative](neg.png)
+![Attention score difference](diff.png)
 
 ### Dataset
 The dataset are not open access due to the current data protocal. If you are interested in the dataset that we used in this paper please write an e-mail to: s.mehrkanoon@uu.nl and j.shi1@uu.nl 
@@ -97,6 +97,6 @@ If you want to run this model on your own datasets, you can either
 ## Results
 ### Model performance
 ![Results](results.png)
-![recall_rate](recall_rate.jpg)
-![F1_rate](f1_rate.jpg)
+![recall_rate](recall_rate.png)
+![F1_rate](f1_rate.png)
 
