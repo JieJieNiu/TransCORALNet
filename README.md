@@ -8,7 +8,8 @@ The proposed TransCORALNet can be found in the model-folder under:
 
 **>>>IMPORTANT<<<**
 
-The original Code from the paper can be found in this branch: https://github.com/JieJieNiu/TransCORALNet
+The original Code from the paper can be found in this branch:(https://github.com/JieJieNiu/TransCORALNet/tree/main/TransCORALNet)
+
 
 Also we provide the code of baseline models MMD and Deep CORAL:https://github.com/JieJieNiu/TransCORALNet/tree/main/MMD%20and%20DeepCORAL
 CADA and DANN: https://github.com/JieJieNiu/TransCORALNet/tree/main/CADA%20and%20DANN
