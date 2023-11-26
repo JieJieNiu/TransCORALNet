@@ -100,8 +100,3 @@ If you want to run this model on your own datasets, you can either
 ![recall_rate](recall_rate.jpg)
 ![F1_rate](f1_rate.jpg)
 
----
-## Citation
-```
-bibtex
-```
