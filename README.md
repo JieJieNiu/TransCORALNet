@@ -15,7 +15,8 @@ Also we provide the code of baseline models MMD and Deep CORAL:[[MMD and DeepCOR
 CADA and DANN: [[CADA and DANN](https://github.com/JieJieNiu/TransCORALNet/tree/main/CADA%20and%20DANN)]
 
 
-The trained model canbe download in this branch, you can load model-TransCORALNet.pt and use it directly, also the baseline models of CADA, DANN, MMD and DeepCORAL can be download here: [[Download trained models]( https://github.com/JieJieNiu/TransCORALNet/tree/main/Trained%20models)]
+The trained model canbe download in this branch, you can load model-TransCORALNet.pt and use it directly, also the baseline models of CADA, DANN, MMD and DeepCORAL can be download here: 
+[[Download trained models]( https://github.com/JieJieNiu/TransCORALNet/tree/main/Trained%20models)]
 
 The current master branch has since upgraded packages and was refactored. Since the exact package-versions differ the experiments may not be 100% reproducible.
 
