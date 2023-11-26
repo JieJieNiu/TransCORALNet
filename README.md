@@ -10,12 +10,11 @@ The proposed TransCORALNet can be found in the model-folder under:
 
 The original Code from the paper can be found in this branch: https://github.com/JieJieNiu/TransCORALNet
 
-Also we provide the code of baseline models MMD and Deep CORAL:https://github.com/JieJieNiu/TransCORALNet/tree/main/MMD and CORAL
+Also we provide the code of baseline models MMD and Deep CORAL:https://github.com/JieJieNiu/TransCORALNet/tree/main/MMD%20and%20DeepCORAL
 CADA and DANN: https://github.com/JieJieNiu/TransCORALNet/tree/main/CADA%20and%20DANN
 
 
-The trained model canbe download in this branch, you can load model-TransCORALNet.pt and use it directly, also the baseline models of CADA, DANN, MMD and DeepCORAL can be download here: 
-https://github.com/JieJieNiu/TransCORALNet/tree/main/Trained%20models
+The trained model canbe download in this branch, you can load model-TransCORALNet.pt and use it directly, also the baseline models of CADA, DANN, MMD and DeepCORAL can be download here:  https://github.com/JieJieNiu/TransCORALNet/tree/main/Trained%20models
 
 The current master branch has since upgraded packages and was refactored. Since the exact package-versions differ the experiments may not be 100% reproducible.
 
@@ -68,8 +67,8 @@ python TransCORALNet/prediction.py
 ```
 
 ### Explanation
-You can use [Lime](https://github.com/JieJieNiu/TransCORALNet/blob/main/Lime) to interpret the results of a model prediction. 
-Also, the attention score calculation and visualization can be seen here: [Attention score](https://github.com/JieJieNiu/AA-Deep-coral/blob/main/AA-DeepCoral/Attention score results)
+You can use [[[Lime](https://github.com/JieJieNiu/TransCORALNet/tree/main/LIME)] to interpret the results of a model prediction. 
+Also, the attention score calculation and visualization can be seen here: [Attention score](https://github.com/JieJieNiu/TransCORALNet/blob/main/TransCORALNet/Attention%20score%20results.py)
 
 
 ### Plot
