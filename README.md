@@ -2,7 +2,7 @@
 ## Architecture
 Code for the Paper "TransCORALNet: A Two-Stream Transformer CORAL Networks for Supply Chain Credit Assessment Cold Start" 
 
-TransCORALNet<img src='artchi.png', width='700'>
+[TransCORALNet]<img src='artchi.png' width='700'>
 
 The proposed TransCORALNet can be found in the model-folder under: 
 
