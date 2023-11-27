@@ -2,7 +2,7 @@
 ## Architecture
 Code for the Paper "TransCORALNet: A Two-Stream Transformer CORAL Networks for Supply Chain Credit Assessment Cold Start" 
 
-![TransCORALNet](artchi.png)
+![TransCORALNet]<img src='archi.png' width='565'>
 
 The proposed TransCORALNet can be found in the model-folder under: 
 
@@ -82,9 +82,9 @@ Using [rawgraphs](https://www.rawgraphs.io/) to create the following graph:
 
 Using [chiplot](https://www.chiplot.online/) to create the following graph:
 
-![Attention score for positive]<img src='pos.png' width='365'>
-![Attention score for negative]<img src='neg.png' width='365'>
-![Attention score difference]<img src='diff.png' width='365'>
+[[Attention score for positive]<img src='pos.png' width='365'>]
+[[Attention score for negative]<img src='neg.png' width='365'>]
+[[Attention score difference]<img src='diff.png' width='365'>]
 
 ### Dataset
 The dataset are not open access due to the current data protocal. If you are interested in the dataset that we used in this paper please write an e-mail to: s.mehrkanoon@uu.nl and j.shi1@uu.nl 
@@ -98,7 +98,7 @@ If you want to run this model on your own datasets, you can either
 
 ## Results
 ### Model performance
-![Results](results.png)
-![recall_rate]<img src='recall_rate.png' width='265'>
-![F1_rate]<img src='f1_rate.png' width='365'>
+[[Results](results.png)]
+[[recall_rate]<img src='recall_rate.png' width='365'>]
+[[F1_rate]<img src='f1_rate.png' width='365'>]
 
