@@ -82,9 +82,9 @@ Attention score<img src='viz.jpeg' width='300'>
 
 Using [chiplot](https://www.chiplot.online/) to create the following Attention score graph:
 
-positive<img src='pos.png' width='260'> 
-negative<img src='neg.png' width='260'> 
-difference<img src='diff.png' width='260'>
+positive<img src='pos.png' width='200'> 
+negative<img src='neg.png' width='200'> 
+difference<img src='diff.png' width='200'>
 
 ### Dataset
 The dataset are not open access due to the current data protocal. If you are interested in the dataset that we used in this paper please write an e-mail to: s.mehrkanoon@uu.nl and j.shi1@uu.nl 
