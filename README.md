@@ -78,7 +78,7 @@ Also, the attention score calculation and visualization can be seen here: [Atten
 Creating similar plots as in the paper: 
 Using [rawgraphs](https://www.rawgraphs.io/) to create the following graph:
 
-![Attention score](viz.jpeg, width="60%" height="30%")
+![Attention score](viz.jpeg=250x250)
 
 Using [chiplot](https://www.chiplot.online/) to create the following graph:
 
