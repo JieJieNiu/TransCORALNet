@@ -106,5 +106,5 @@ If you want to run this model on your own datasets, you can either
 ## Results
 ### Model performance
 <img src='results.png'>
-Recall_rate<img src='recall_rate.png' width='265'> F1_rate<img src='f1_rate.png' width='265'>
+Recall_rate<img src='recall_rate.png' width='255'> F1_rate<img src='f1_rate.png' width='255'>
 
