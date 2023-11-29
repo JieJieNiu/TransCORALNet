@@ -41,7 +41,7 @@ scipy==1.7.1
 torch==1.8.1
 torchsummary==1.5.1
 torchvision==0.9.1
-lime
+lime==0.2.0.1
 sdv
 ```
 ---
