@@ -87,6 +87,7 @@ negative<img src='neg.png' width='200'>
 difference<img src='diff.png' width='200'>
 
 Using [chiplot](https://www.chiplot.online/) to create the following LIME explanation results:
+
 defaulting<img src='defaultLIME.png' width='200'> 
 non-defauling<img src='non-defaultLIME.png' width='200'> 
 
