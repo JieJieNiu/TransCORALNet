@@ -88,8 +88,10 @@ difference<img src='diff.png' width='200'>
 
 Using [chiplot](https://www.chiplot.online/) to create the following LIME explanation results:
 
-defaulting<img src='defaultLIME.png' width='200'> 
-non-defauling<img src='non-defaultLIME.png' width='200'> 
+
+
+defaulting<img src='defaultLIME.png' width='250'> 
+non-defauling<img src='non-defaultLIME.png' width='250'> 
 
 ### Dataset
 The dataset are not open access due to the current data protocal. If you are interested in the dataset that we used in this paper please write an e-mail to: s.mehrkanoon@uu.nl and j.shi1@uu.nl 
