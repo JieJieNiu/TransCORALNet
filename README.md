@@ -112,13 +112,13 @@ Recall_rate<img src='recall_rate.png' width='355'> F1_rate<img src='f1_rate.png'
 If you decide to cite our project in your paper or use our data, please use the following bibtex reference:
 
 ```
-    @misc{shi2023transcoralnet,
+@misc{shi2023transcoralnet,
       title={TransCORALNet: A Two-Stream Transformer CORAL Networks for Supply Chain Credit Assessment Cold Start}, 
       author={Jie Shi and Arno P. J. M. Siebes and Siamak Mehrkanoon},
       year={2023},
       eprint={2311.18749},
       archivePrefix={arXiv},
       primaryClass={cs.LG}
-}
+}    
 ```
 
