@@ -11,7 +11,7 @@ from torch import nn
 
 class TransCORALNet(nn.Module):
     def __init__(self, num_classes=2):
-        super(AADeepCORAL, self).__init__()
+        super(TransCORALNet, self).__init__()
         self.transformer = nn.Sequential(
             nn.TransformerEncoderLayer(d_model=21, nhead=7,dim_feedforward=32,batch_first=True),
         )
