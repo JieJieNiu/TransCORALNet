@@ -2,7 +2,7 @@
 ## Architecture
 Code for the Paper "TransCORALNet: A Two-Stream Transformer CORAL Networks for Supply Chain Credit Assessment Cold Start" 
 
-The paper is accepted by the jounal <Expert System with Applications>.
+The paper is accepted by the jounal Expert System with Applications.
 
 [TransCORALNet]<img src='artchi.png' width='700'>
 
